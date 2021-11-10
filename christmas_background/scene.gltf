@@ -1,0 +1,252 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 400,
+      "max": [
+        0.80365997552871704,
+        0.94372999668121338,
+        0.15520000457763672
+      ],
+      "min": [
+        -0.99141997098922729,
+        -0.94372999668121338,
+        -0.15520000457763672
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 4800,
+      "componentType": 5126,
+      "count": 400,
+      "max": [
+        1,
+        0.95374363660812378,
+        1
+      ],
+      "min": [
+        -1,
+        -0.95374363660812378,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 588,
+      "max": [
+        399
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "ijgprojects (https://sketchfab.com/ijgprojects)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/christmas-background-82686a658cfd4f1f959c3cc13ca72b16",
+      "title": "Christmas Background"
+    },
+    "generator": "Sketchfab-6.31.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2352,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 9600,
+      "byteOffset": 2352,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 11952,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1,
+            1,
+            1,
+            0.51200002288818391
+          ],
+          "glossinessFactor": 0.40000000000000002,
+          "specularFactor": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "name": "Glass"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Star.048_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        0.38688000000000011,
+        0.23620000000000002,
+        0.59447000000000005,
+        0,
+        0.44374000000000002,
+        0.40130000000000005,
+        -0.44823000000000002,
+        0,
+        -0.46072999999999997,
+        0.58483000000000007,
+        0.067470000000000016,
+        0,
+        0.051440000000000007,
+        7.1335799999999994,
+        0.27401000000000003,
+        1
+      ],
+      "name": "Star.048"
+    },
+    {
+      "mesh": 0,
+      "name": "Star.048_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        0.70711000000000002,
+        -0.70711000000000002,
+        -0,
+        0,
+        0.5,
+        0.5,
+        0.70711000000000002,
+        0,
+        -0.5,
+        -0.5,
+        0.70711000000000002,
+        0,
+        -7.852479999999999,
+        -4.7182300000000001,
+        2.3162599999999993,
+        1
+      ],
+      "name": "Sun"
+    },
+    {
+      "name": "Sun"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        0.70711000000000002,
+        0.70711000000000002,
+        -0,
+        0,
+        -0.5,
+        0.5,
+        0.70711000000000002,
+        0,
+        0.5,
+        -0.5,
+        0.70711000000000002,
+        0,
+        5.6551399999999994,
+        -4.7182300000000001,
+        2.3162599999999993,
+        1
+      ],
+      "name": "Sun.001"
+    },
+    {
+      "name": "Sun.001"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
