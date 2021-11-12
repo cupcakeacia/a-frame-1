@@ -1,0 +1,526 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1330,
+      "max": [
+        101.10000610351562,
+        120.40155029296875,
+        101.10000610351562
+      ],
+      "min": [
+        -101.10000610351562,
+        -142.25035095214844,
+        -101.10000610351562
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 15960,
+      "componentType": 5126,
+      "count": 1330,
+      "max": [
+        0.99989068508148193,
+        1,
+        0.99989068508148193
+      ],
+      "min": [
+        -0.99989068508148193,
+        -0.99999397993087769,
+        -0.99989068508148193
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1330,
+      "max": [
+        1,
+        0.065528832376003265,
+        0.99999815225601196,
+        1
+      ],
+      "min": [
+        -1,
+        -0.065528422594070435,
+        -1,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 7056,
+      "max": [
+        1325
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 31920,
+      "componentType": 5126,
+      "count": 531,
+      "max": [
+        92.799583435058594,
+        50.099998474121094,
+        92.799583435058594
+      ],
+      "min": [
+        -92.799583435058594,
+        -98.022712707519531,
+        -92.799583435058594
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 38292,
+      "componentType": 5126,
+      "count": 531,
+      "max": [
+        0.99942624568939209,
+        1,
+        1
+      ],
+      "min": [
+        -0.99942624568939209,
+        -0.99998360872268677,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 21280,
+      "componentType": 5126,
+      "count": 531,
+      "max": [
+        1,
+        0.52435433864593506,
+        0.99999010562896729,
+        1
+      ],
+      "min": [
+        -1,
+        -0.81604784727096558,
+        -1,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 28224,
+      "componentType": 5125,
+      "count": 2772,
+      "max": [
+        522
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        0
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        -0.18879568576812744,
+        0.97081840038299561,
+        -0.028229068964719772,
+        0.14515849947929382
+      ],
+      "min": [
+        -0.18879568576812744,
+        0.97081840038299561,
+        -0.028229068964719772,
+        0.14515849947929382
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 4,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        0
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 16,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        0.46193975210189819,
+        -0.33141356706619263,
+        0.19134171307086945,
+        0.80010312795639038
+      ],
+      "min": [
+        0.46193975210189819,
+        -0.33141356706619263,
+        0.19134171307086945,
+        0.80010312795639038
+      ],
+      "type": "VEC4"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 9,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 11,
+            "path": "rotation"
+          }
+        }
+      ],
+      "name": "Take 001",
+      "samplers": [
+        {
+          "input": 8,
+          "interpolation": "LINEAR",
+          "output": 9
+        },
+        {
+          "input": 10,
+          "interpolation": "LINEAR",
+          "output": 11
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "DRSJir (https://sketchfab.com/DRSJir)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/5907b88434d44324aee0832be6d3677e",
+      "title": "Vaso"
+    },
+    "generator": "Sketchfab-3.18.6",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 39312,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 44664,
+      "byteOffset": 39312,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 29776,
+      "byteOffset": 83976,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 113752,
+      "name": "floatBufferViews"
+    },
+    {
+      "buffer": 0,
+      "byteLength": 32,
+      "byteOffset": 113760,
+      "byteStride": 16,
+      "name": "floatBufferViews"
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 113792,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": false,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.17663871953999999,
+            0.17663871953999999,
+            0.17663871953999999,
+            0.2665777439
+          ],
+          "glossinessFactor": 0.91634908540000004,
+          "specularFactor": [
+            0.79439786590000006,
+            0.79439786590000006,
+            0.79439786590000006
+          ]
+        }
+      },
+      "name": "Vaso"
+    },
+    {
+      "doubleSided": false,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.91025152440000001,
+            0.91025152440000001,
+            0.91025152440000001,
+            1
+          ],
+          "glossinessFactor": 0.74828506100000003,
+          "specularFactor": [
+            0.54439786590000006,
+            0.54439786590000006,
+            0.54439786590000006
+          ]
+        }
+      },
+      "name": "Contenido"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Vaso_Vaso_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Contenido_Contenido_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TANGENT": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Vaso y Leche.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": ""
+    },
+    {
+      "children": [
+        5,
+        7,
+        9,
+        11
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "Vaso"
+    },
+    {
+      "mesh": 0,
+      "name": "Vaso_Vaso_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "name": "Contenido"
+    },
+    {
+      "mesh": 1,
+      "name": "Contenido_Contenido_0"
+    },
+    {
+      "children": [
+        10
+      ],
+      "name": "Camera",
+      "rotation": [
+        -0.18879568576812744,
+        0.97081840038299561,
+        -0.028229067102074623,
+        0.14515849947929382
+      ],
+      "translation": [
+        862.44219970703125,
+        353.64422607421875,
+        263.80563354492188
+      ]
+    },
+    {
+      "name": ""
+    },
+    {
+      "children": [
+        12
+      ],
+      "name": "Directional Light",
+      "rotation": [
+        0.46193975210189819,
+        -0.33141359686851501,
+        0.19134171307086945,
+        0.80010312795639038
+      ],
+      "translation": [
+        -200,
+        200,
+        200
+      ]
+    },
+    {
+      "children": [
+        13
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.2204460492503131e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.2204460492503131e-16,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": ""
+    },
+    {
+      "name": ""
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
